@@ -16,7 +16,7 @@ import typing
 
 from google.protobuf import message
 
-from buf.validate import expression_pb2  # type: ignore
+from protovalidate.gen.buf.validate import expression_pb2
 from protovalidate.internal import constraints as _constraints
 from protovalidate.internal import extra_func
 

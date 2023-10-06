@@ -19,8 +19,8 @@ import celpy  # type: ignore
 from celpy import celtypes  # type: ignore
 from google.protobuf import any_pb2, descriptor, message
 
-from buf.validate import expression_pb2, validate_pb2  # type: ignore
-from buf.validate.priv import private_pb2  # type: ignore
+from protovalidate.gen.buf.validate import expression_pb2, validate_pb2  # type: ignore
+from protovalidate.gen.buf.validate.priv import private_pb2  # type: ignore
 from protovalidate.internal import string_format
 
 
